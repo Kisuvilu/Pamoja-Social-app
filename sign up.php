@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pamoja App | Log in </title>
+    <title>Pamoja App | Signup</title>
 </head>
 <style >
     #blue bar{
@@ -61,15 +61,28 @@
 <body style="font-family: tahoma; background-color: #e9ebee;">
     <div id="blue bar">
      <div style="font-size: 40px;">Pamoja App</div>
-     <div id= "Signup_button">Signup</div>
+     <div id= "Signup_button">Login</div>
 
     </div>
 
     <div id="login_bar">
-        Log in to Pamoja App
+        Sign up to Pamoja App
+
+        <input type="text" id="text" placeholder="First Name><br><br>
+        <input type="text" id="text" placeholder="Last Name><br><br>
+       
+        <span style="font-weight: norm;">Gender:</span><br>
+        <Select id="text">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <br><br>
         <input type="text" id="text" placeholder="Email or Phone number><br><br>
         <input type="password" id="text" placeholder="Password>><br><br>
-        <input type="submit" id="button" value="Log in">
+        <input type="password" id="text" placeholder="Retype Password>><br><br>
+
+
+        <input type="submit" id="button" value="Sign up">
         <br><br><br>
     </div>
 
